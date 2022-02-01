@@ -6,10 +6,8 @@
 		<link rel="stylesheet" href="reset_plus.css">
 		<link rel="stylesheet" href="stijl.css">
 		<link rel="stylesheet" href="https://use.typekit.net/zfm7mha.css">
+		<script src="jquery.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	</head>
 	<body>
@@ -24,6 +22,7 @@
 						<img class="smartphone-boost-groen" src="img/boost-groen-rechts.png">
 						<div class="smartphone-boost-groen-mask"></div>
 						<img class="smartphone-boost-wit" src="img/boost-wit-links.png">
+						<div class="smartphone-boost-wit-mask"></div>
 						<img class="smartphone-boost-roos" src="img/boost-roos-rechts.png">
 						<div class="smartphone-boost-roos-mask"></div>
 						<img class="smartphone-mockup" src="img/smartphone.png">
@@ -33,16 +32,21 @@
 				<section>
 					<h1 class="gewone-h1">Understand</h1>
 					<h2 class="gewone-h2">Gekozen thema</h2>
+					<img id="gitaar-1" src="img/gitaar.gif">
+					<img id="gitaar-2" src="img/gitaar-2.jpg">
+					<img id="gitaar-3" src="img/gitaar-3.jpg">
+					<img id="bas" src="img/bas.jpg">
+					<img id="drum" src="img/drum.jpg">
+					<img id="drum-2" src="img/drum-2.jpg">
+					<img id="bas-2" src="img/bas-2.jpg">
+					<img id="kaartje" src="img/kaartje.jpg">
 				</section>
 				<section>
 					<h1 class="gewone-h1">Understand</h1>
 					<h2 class="gewone-h2">Deskresearch</h2>
 					<div class="slider-slechte-sites">
-						<div>
-							<iframe src="https://www.muzikanten-in-jouw-stad.be/speurder.zoeken/muzikanten-turnhout/2300"></iframe>
-						</div>
-						<div><iframe src="https://www.muzikantenbank.net/advertenties/blader"></iframe></div>
-						<div><iframe src="https://music-electronics.be/nl/muzikanten-gezocht/"></iframe></div>
+						<div><iframe src="https://www.muzikanten-in-jouw-stad.be/speurder.zoeken/muzikanten-turnhout/2300"></iframe></div>
+						<div><iframe src="https://www.muzikantenbank.eu/advertenties/muzikanten-aangeboden/bassist/nederland"></iframe></div>	
 					</div>
 				</section>
 				<section>
@@ -60,13 +64,14 @@
 					<h2 class="gewone-h2">Logo</h2>
 					<img src="img/bandfit-logo-roos.png">					
 				</section>
+
 				<section>
 					<h1 class="gewone-h1">Materialize</h1>
 					<h2 class="gewone-h2">Technieken</h2>
 					<ul>
 						<li>WordPress</li>
 						<li>Plugins: ACF, ACF Frontend, Loco Translate</li>
-						<li>Talen: HTML, SCSS, JS, PHP, jQuery</li>
+						<li>Talen: HTML, SCSS, JS, PHP, (jQuery)</li>
 						<li>JS bibliotheken: slick.js, vibrant.js</li>
 						<li>API: YouTube</li>
 					</ul>					
@@ -75,19 +80,185 @@
 					<h1 class="gewone-h1-rechts">Materialize</h1>
 					<h2 class="gewone-h2-rechts">Demo!</h2>	
 					<div class="smartphone-mockup"></div>
-					<iframe class="full-bandfit" src="http://bandfit.local/"></iframe>	
-					<iframe class="set-image-bandfit" src="http://bandfit.local/"></iframe>	
+					<iframe class="full-bandfit" src="http://bandfit.local/user-18" target="_parent"></iframe>	
+					<iframe class="set-image-bandfit" src="http://bandfit.local/band-user-18" target="_parent"></iframe>	
 				</section>
 				<section>
 					<h1 class="gewone-h1">Verder verloop</h1>
-					<h2 class="gewone-h2">Wat met Bandfit?</h2>					
+					<h2 class="gewone-h2">Wat met Bandfit?</h2>	
+					<ul>
+						<li>SEO</li>
+						<li>Pagina sociale media?</li>
+						<li>Pagina map?</li>
+						<li>Pagina aanraders?</li>
+					</ul>				
 				</section>
 				<section>
 					<h1 class="gewone-h1">Reflectie</h1>
-					<h2 class="gewone-h2">Proces en resultaat</h2>					
+					<h2 class="gewone-h2">Proces en resultaat</h2>	
+					<ul>
+						<li>Weer heel veel bijgeleerd!</li>
+						<li>Communicatieve aspect valt best wel mee!</li>
+						<li>Laatste maand...</li>
+						<li>Al bij al wel trots</li>
+					</ul>				
 				</section>
 				<section>
-					<h1>Bedankt voor jullie aandacht!</h1>				
+					<h1 id="h1-slide-10">Bedankt voor jullie aandacht!</h1>
+					<div class="smartphone">
+						<div class="smartphone-background bg-darkmuted"></div>
+						<svg version="1.1" class="smartphone-boost-groen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+						<g>
+							<path class="fill-lightvibrant" d="M113.14,107.53c-0.07,2.34-1.17,4.06-3.3,4.99c-2.13,0.93-4.14,0.55-5.91-0.99c-0.22-0.19-0.42-0.41-0.62-0.61
+								C71.56,79.17,39.81,47.41,8.05,15.66c-2.29-2.29-2.69-4.85-1.16-7.31c1.75-2.81,5.79-3.38,8.23-1.15c0.25,0.22,0.47,0.46,0.71,0.7
+								c31.73,31.72,63.45,63.45,95.18,95.17C112.28,104.33,113.2,105.67,113.14,107.53z"/>
+							<path class="fill-lightvibrant" d="M119.98,100.44c-1.35,0.08-2.56-0.48-3.63-1.42c-0.25-0.22-0.48-0.46-0.72-0.69
+								c-28.85-28.85-57.7-57.71-86.56-86.55C27.28,9.99,26.39,8,27.25,5.49c1.12-3.29,4.96-4.71,7.95-2.94c0.63,0.38,1.2,0.89,1.73,1.41
+								c28.83,28.82,57.63,57.66,86.5,86.44c2.89,2.88,2.51,6.36,0.94,8.14C123.21,99.83,121.89,100.45,119.98,100.44z"/>
+							<path class="fill-lightvibrant" d="M99.94,119.26c-0.06,2.29-1.14,3.99-3.18,4.95c-2.11,0.99-4.13,0.62-5.93-0.85c-0.29-0.24-0.54-0.52-0.8-0.78
+								c-28.65-28.65-57.3-57.3-85.96-85.94c-1.09-1.09-1.94-2.27-2.07-3.85c-0.2-2.42,1.04-4.54,3.23-5.54c2.19-1,4.44-0.56,6.27,1.27
+								c10.57,10.56,21.14,21.13,31.71,31.7c18.26,18.26,36.51,36.52,54.79,54.77C99.19,116.18,99.96,117.52,99.94,119.26z"/>
+							<path class="fill-lightvibrant" d="M138.07,82.2c0.01,2.58-1.01,4.22-2.94,5.2c-1.96,1-3.94,0.87-5.76-0.44c-0.47-0.34-0.9-0.74-1.31-1.15
+								C103.75,61.5,79.45,37.2,55.14,12.89c-1.28-1.28-2.19-2.7-2.13-4.59c0.07-2.14,1.02-3.77,2.9-4.74c1.91-0.98,3.85-0.91,5.67,0.29
+								c0.51,0.34,0.97,0.78,1.41,1.22c24.31,24.3,48.61,48.61,72.92,72.91C137.2,79.26,138.18,80.64,138.07,82.2z"/>
+							<path class="fill-lightvibrant" d="M88.21,132.4c-0.05,2.28-1.08,4.01-3.12,4.98c-2.14,1.02-4.2,0.72-6.03-0.84c-0.19-0.16-0.37-0.34-0.54-0.51
+								C54.01,111.52,29.51,87.02,5,62.51c-2.11-2.11-2.52-4.53-1.21-6.89c1.67-3.03,5.72-3.76,8.35-1.51c0.31,0.27,0.61,0.57,0.9,0.86
+								c24.36,24.36,48.72,48.72,73.09,73.07C87.35,129.26,88.23,130.6,88.21,132.4z"/>
+						</g>
+						</svg>
+						<div class="smartphone-boost-groen-mask"></div>
+						<svg version="1.1" class="smartphone-boost-wit fill-vibrant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+						<g>
+							<path class="fill-vibrant" d="M26.91,107.53c0.07,2.34,1.17,4.06,3.3,4.99c2.13,0.93,4.14,0.55,5.91-0.99c0.22-0.19,0.42-0.41,0.62-0.61
+								C68.49,79.17,100.24,47.41,132,15.66c2.29-2.29,2.69-4.85,1.16-7.31c-1.75-2.81-5.79-3.38-8.23-1.15c-0.25,0.22-0.47,0.46-0.71,0.7
+								c-31.73,31.72-63.45,63.45-95.18,95.17C27.77,104.33,26.85,105.67,26.91,107.53z"/>
+							<path class="fill-vibrant" d="M20.07,100.44c1.35,0.08,2.56-0.48,3.63-1.42c0.25-0.22,0.48-0.46,0.72-0.69
+								c28.85-28.85,57.7-57.71,86.56-86.55c1.79-1.79,2.68-3.78,1.82-6.29c-1.12-3.29-4.96-4.71-7.95-2.94c-0.63,0.38-1.2,0.89-1.73,1.41
+								C74.3,32.77,45.49,61.61,16.63,90.39c-2.89,2.88-2.51,6.36-0.94,8.14C16.84,99.83,18.16,100.45,20.07,100.44z"/>
+							<path class="fill-vibrant" d="M40.11,119.26c0.06,2.29,1.14,3.99,3.18,4.95c2.11,0.99,4.13,0.62,5.93-0.85c0.29-0.24,0.54-0.52,0.8-0.78
+								c28.65-28.65,57.3-57.3,85.96-85.94c1.09-1.09,1.94-2.27,2.07-3.85c0.2-2.42-1.04-4.54-3.23-5.54c-2.19-1-4.44-0.56-6.27,1.27
+								c-10.57,10.56-21.14,21.13-31.71,31.7C78.6,78.47,60.34,96.73,42.07,114.98C40.86,116.18,40.09,117.52,40.11,119.26z"/>
+							<path class="fill-vibrant" d="M1.98,82.2c-0.01,2.58,1.01,4.22,2.94,5.2c1.96,1,3.94,0.87,5.76-0.44c0.47-0.34,0.9-0.74,1.31-1.15
+								C36.29,61.5,60.6,37.2,84.91,12.89c1.28-1.28,2.19-2.7,2.13-4.59c-0.07-2.14-1.02-3.77-2.9-4.74c-1.91-0.98-3.85-0.91-5.67,0.29
+								c-0.51,0.34-0.97,0.78-1.41,1.22C52.75,29.38,28.44,53.68,4.13,77.98C2.85,79.26,1.87,80.64,1.98,82.2z"/>
+							<path class="fill-vibrant" d="M51.84,132.4c0.05,2.28,1.08,4.01,3.12,4.98c2.14,1.02,4.2,0.72,6.03-0.84c0.19-0.16,0.37-0.34,0.54-0.51
+								c24.51-24.51,49.01-49.01,73.52-73.52c2.11-2.11,2.52-4.53,1.21-6.89c-1.67-3.03-5.72-3.76-8.35-1.51
+								c-0.31,0.27-0.61,0.57-0.9,0.86c-24.36,24.36-48.72,48.72-73.09,73.07C52.7,129.26,51.82,130.6,51.84,132.4z"/>
+						</g>
+						</svg>
+						<div class="smartphone-boost-wit-mask"></div>
+						<svg version="1.1" class="smartphone-boost-roos fill-darkvibrant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+						<g>
+							<path class="fill-darkvibrant" d="M113.14,107.53c-0.07,2.34-1.17,4.06-3.3,4.99c-2.13,0.93-4.14,0.55-5.91-0.99c-0.22-0.19-0.42-0.41-0.62-0.61
+								C71.56,79.17,39.81,47.41,8.05,15.66c-2.29-2.29-2.69-4.85-1.16-7.31c1.75-2.81,5.79-3.38,8.23-1.15c0.25,0.22,0.47,0.46,0.71,0.7
+								c31.73,31.72,63.45,63.45,95.18,95.17C112.28,104.33,113.2,105.67,113.14,107.53z"/>
+							<path class="fill-darkvibrant" d="M119.98,100.44c-1.35,0.08-2.56-0.48-3.63-1.42c-0.25-0.22-0.48-0.46-0.72-0.69
+								c-28.85-28.85-57.7-57.71-86.56-86.55C27.28,9.99,26.39,8,27.25,5.49c1.12-3.29,4.96-4.71,7.95-2.94c0.63,0.38,1.2,0.89,1.73,1.41
+								c28.83,28.82,57.63,57.66,86.5,86.44c2.89,2.88,2.51,6.36,0.94,8.14C123.21,99.83,121.89,100.45,119.98,100.44z"/>
+							<path class="st0" d="M99.94,119.26c-0.06,2.29-1.14,3.99-3.18,4.95c-2.11,0.99-4.13,0.62-5.93-0.85c-0.29-0.24-0.54-0.52-0.8-0.78
+								c-28.65-28.65-57.3-57.3-85.96-85.94c-1.09-1.09-1.94-2.27-2.07-3.85c-0.2-2.42,1.04-4.54,3.23-5.54c2.19-1,4.44-0.56,6.27,1.27
+								c10.57,10.56,21.14,21.13,31.71,31.7c18.26,18.26,36.51,36.52,54.79,54.77C99.19,116.18,99.96,117.52,99.94,119.26z"/>
+							<path class="fill-darkvibrant" d="M138.07,82.2c0.01,2.58-1.01,4.22-2.94,5.2c-1.96,1-3.94,0.87-5.76-0.44c-0.47-0.34-0.9-0.74-1.31-1.15
+								C103.75,61.5,79.45,37.2,55.14,12.89c-1.28-1.28-2.19-2.7-2.13-4.59c0.07-2.14,1.02-3.77,2.9-4.74c1.91-0.98,3.85-0.91,5.67,0.29
+								c0.51,0.34,0.97,0.78,1.41,1.22c24.31,24.3,48.61,48.61,72.92,72.91C137.2,79.26,138.18,80.64,138.07,82.2z"/>
+							<path class="fill-darkvibrant" d="M88.21,132.4c-0.05,2.28-1.08,4.01-3.12,4.98c-2.14,1.02-4.2,0.72-6.03-0.84c-0.19-0.16-0.37-0.34-0.54-0.51
+								C54.01,111.52,29.51,87.02,5,62.51c-2.11-2.11-2.52-4.53-1.21-6.89c1.67-3.03,5.72-3.76,8.35-1.51c0.31,0.27,0.61,0.57,0.9,0.86
+								c24.36,24.36,48.72,48.72,73.09,73.07C87.35,129.26,88.23,130.6,88.21,132.4z"/>
+						</g>
+						</svg>
+						<div class="smartphone-boost-roos-mask"></div>
+						<img class="smartphone-mockup" src="img/smartphone.png">
+						<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg version="1.1" class="fill-vibrant smartphone-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 130 130" style="enable-background:new 0 0 130 130;" xml:space="preserve">
+						<g>
+							<path class="fill-vibrant" d="M43.71,4.72c0,0.4,0,0.81,0,1.22c0,13.17-0.01,26.33,0.02,39.5c0,0.81-0.21,1.44-0.68,2.09
+								c-7.24,10.05-7.18,23.8,0.13,33.8c0.39,0.53,0.55,1.07,0.54,1.72c-0.01,13.55-0.01,27.09-0.01,40.64c0,1.2-0.01,1.22-1.08,0.78
+								c-21.04-8.62-34.61-23.91-39.54-46.09c-4.54-20.44,0.33-38.99,13.74-55.13c6.91-8.31,15.56-14.29,25.62-18.23
+								c0.32-0.13,0.65-0.24,0.98-0.35C43.49,4.66,43.57,4.69,43.71,4.72z"/>
+							<path class="fill-vibrant " d="M87.01,104.96c0-6.24,0.01-12.47-0.01-18.71c0-0.74,0.19-1.3,0.73-1.84c1.48-1.47,2.74-3.12,3.8-4.92
+								c0.34-0.57,0.7-0.83,1.39-0.82c11.33,0.02,22.66,0.02,33.99,0c0.85,0,0.98,0.25,0.78,1.02c-5.71,21.53-18.9,36.47-39.53,44.85
+								c-1.13,0.46-1.15,0.43-1.15-0.77C87,117.5,87.01,111.23,87.01,104.96z"/>
+							<path class="fill-vibrant" d="M127.59,49.93c-0.33,0-0.67,0-1.01,0c-11.19,0-22.38-0.01-33.57,0.02c-0.75,0-1.17-0.21-1.55-0.87
+								c-1.07-1.83-2.39-3.48-3.88-4.98C87.15,43.66,87,43.21,87,42.62c0.01-12.37,0.02-24.73-0.01-37.1c0-0.98,0.3-1,1.08-0.69
+								c20.29,8.21,33.43,22.81,39.35,43.89c0.08,0.3,0.15,0.6,0.21,0.91C127.64,49.7,127.61,49.77,127.59,49.93z"/>
+							<path class="fill-vibrant" d="M47.19,85.88c1.56,1.36,3.13,2.53,4.82,3.53c0.37,0.22,0.34,0.57,0.34,0.91c0,12.05,0,24.09,0.01,36.14
+								c0,0.6-0.06,0.92-0.8,0.7c-1.26-0.38-2.54-0.67-3.81-0.98c-0.46-0.11-0.67-0.33-0.67-0.86c0.02-13.05,0.02-26.1,0.03-39.15
+								C47.1,86.14,47.12,86.11,47.19,85.88z"/>
+							<path class="fill-vibrant" d="M47.29,42.68c-0.32-0.38-0.2-0.75-0.2-1.07c-0.01-12.33,0.01-24.67-0.03-37c0-0.95,0.3-1.35,1.21-1.52
+								c1.15-0.21,2.29-0.52,3.42-0.84c0.54-0.15,0.7,0.01,0.66,0.52c-0.01,0.17,0,0.35,0,0.52c0,11.57-0.01,23.14,0.02,34.72
+								c0,0.79-0.21,1.25-0.92,1.64C49.95,40.47,48.62,41.58,47.29,42.68z"/>
+							<path class="fill-vibrant" d="M55.83,91.31c1.52,0.6,3,1.09,4.52,1.4c0.68,0.14,0.57,0.57,0.57,1c0,4.92,0,9.84,0,14.75
+								c0,6.34-0.02,12.68,0.02,19.01c0.01,0.93-0.29,1.12-1.13,0.99c-1.09-0.18-2.2-0.26-3.29-0.39c-0.48-0.06-0.81-0.19-0.81-0.82
+								c0.02-11.88,0.02-23.76,0.03-35.64C55.74,91.55,55.77,91.48,55.83,91.31z"/>
+							<path class="fill-vibrant" d="M55.72,37.33c0-0.39,0-0.7,0-1c0-11.25,0.02-22.51-0.03-33.76c0-0.94,0.35-1.19,1.14-1.26
+								c1.14-0.1,2.27-0.22,3.4-0.36c0.46-0.06,0.75,0,0.68,0.56c-0.02,0.14,0,0.28,0,0.42c0,10.98-0.01,21.95,0.02,32.93
+								c0,0.77-0.21,1.06-0.99,1.23C58.57,36.38,57.24,36.87,55.72,37.33z"/>
+							<path class="fill-vibrant" d="M79.24,127.2c0-0.45,0-0.79,0-1.13c0-11.46,0.01-22.92-0.02-34.39c0-0.79,0.2-1.23,0.94-1.59
+								c1.2-0.58,2.31-1.33,3.59-2.07c0,0.44,0,0.78,0,1.11c0,11.91-0.01,23.82,0.02,35.74c0,0.87-0.2,1.33-1.1,1.5
+								C81.55,126.57,80.46,126.9,79.24,127.2z"/>
+							<path class="fill-vibrant" d="M83.75,22.05c0,5.85,0,11.7-0.01,17.55c0,0.29,0.17,0.7-0.15,0.86c-0.31,0.16-0.54-0.22-0.79-0.37
+								c-0.96-0.55-1.89-1.15-2.87-1.66c-0.49-0.26-0.7-0.53-0.7-1.11c0.02-11.39,0.02-22.78,0-34.18c0-0.79,0.21-0.95,0.95-0.71
+								c0.85,0.28,1.73,0.5,2.61,0.67c0.75,0.15,0.98,0.52,0.98,1.28C83.74,10.28,83.75,16.17,83.75,22.05z"/>
+							<path class="fill-vibrant" d="M64.24,110.97c0-5.47,0.03-10.94-0.03-16.41c-0.01-1.05,0.31-1.31,1.28-1.2c0.75,0.09,1.53,0.08,2.28,0.01
+								c0.74-0.06,1.02,0.11,1.02,0.94c-0.03,11.11-0.03,22.23,0,33.34c0,0.79-0.28,1.04-1.02,1.02c-0.79-0.03-1.6-0.04-2.39,0.05
+								c-0.9,0.09-1.17-0.18-1.17-1.13C64.27,122.05,64.24,116.51,64.24,110.97z"/>
+							<path class="fill-vibrant" d="M64.24,18.02c0-5.54,0.01-11.08-0.02-16.62c0-0.61,0.2-0.7,0.7-0.68c1.11,0.05,2.21,0.09,3.32,0.12
+								c0.38,0.01,0.59,0.13,0.55,0.55c-0.02,0.21,0,0.42,0,0.62c0,10.67-0.01,21.33,0.02,32c0,0.98-0.15,1.48-1.28,1.33
+								c-0.78-0.11-1.59-0.05-2.38,0.03c-0.76,0.08-0.91-0.22-0.91-0.92C64.26,28.96,64.24,23.49,64.24,18.02
+								C64.24,18.02,64.24,18.02,64.24,18.02z"/>
+							<path class="fill-vibrant" d="M76.15,65.91c-0.01-3.08,0.01-6.17-0.04-9.25c-0.01-0.76,0.12-1.1,1-1.08c1.92,0.05,1.92,0,1.92,1.91
+								c0,4.99-0.02,9.98,0.02,14.97c0.01,0.77-0.19,0.99-0.98,0.98c-2.56-0.03-2.55,0-3.41-2.38c-1.19-3.3-2.39-6.61-3.71-9.89
+								c0,1.5,0,3,0,4.5c0,2.01,0.02,4.02-0.01,6.03c-0.01,0.56,0.32,1.42-0.22,1.62c-0.7,0.26-1.57,0.1-2.36,0.07
+								c-0.4-0.02-0.3-0.4-0.31-0.66c-0.01-1.14,0-2.29,0-3.43c0-4.23,0.02-8.45-0.02-12.68c-0.01-0.74,0.16-1.03,0.97-1.03
+								c2.69-0.01,2.7-0.04,3.66,2.51c1.1,2.95,2.19,5.9,3.29,8.85c0.16,0.13,0.29,0.28,0.26,0.51C76.17,66.94,76.34,66.42,76.15,65.91z"
+								/>
+							<path class="fill-vibrant" d="M75.89,109.92c0,5.65-0.01,11.3,0.02,16.94c0,0.72-0.14,1.11-0.93,1.1c-0.34,0-0.68,0.1-1.03,0.14
+								c-1.92,0.21-1.92,0.21-1.92-1.77c0-10.74,0.01-21.48-0.02-32.23c0-0.88,0.18-1.35,1.14-1.41c0.54-0.03,1.09-0.21,1.6-0.41
+								c0.83-0.33,1.18-0.29,1.16,0.79c-0.08,3.19-0.03,6.38-0.03,9.56C75.89,105.07,75.89,107.5,75.89,109.92z"/>
+							<path class="fill-vibrant" d="M75.89,19.13c0,5.51-0.02,11.02,0.02,16.53c0,0.86-0.19,1.14-1.04,0.77c-0.41-0.18-0.86-0.25-1.3-0.36
+								c-1.54-0.39-1.54-0.39-1.54-2.01c0-10.57,0-21.13,0-31.7c0-1.28,0-1.28,1.21-1.12c2.64,0.36,2.64,0.36,2.64,3.02
+								C75.89,9.22,75.89,14.17,75.89,19.13z"/>
+							<path class="fill-vibrant" d="M95.49,64.57c0-2.67,0.02-5.34-0.01-8c-0.01-0.7,0.17-0.98,0.92-0.97c2.49,0.04,4.99,0.03,7.48,0
+								c0.7-0.01,0.88,0.25,0.88,0.91c0.02,1.95,0.04,1.95-1.88,1.95c-1.14,0-2.29,0.02-3.43-0.01c-0.55-0.02-0.72,0.19-0.71,0.72
+								c0.03,1,0.04,2.01,0,3.01c-0.03,0.63,0.17,0.86,0.82,0.83c1.32-0.04,2.63,0.01,3.95-0.02c0.58-0.01,0.86,0.1,0.87,0.78
+								c0.03,1.99,0.06,1.98-1.95,1.98c-0.94,0-1.87,0.03-2.81-0.01c-0.67-0.03-0.91,0.17-0.89,0.87c0.04,1.97-0.01,3.95,0.03,5.92
+								c0.01,0.65-0.14,0.9-0.85,0.9c-2.43,0.01-2.43,0.04-2.43-2.43C95.49,68.86,95.49,66.72,95.49,64.57z"/>
+							<path class="fill-vibrant" d="M115.4,65.95c0-2.22-0.02-4.43,0.01-6.65c0.01-0.69-0.2-0.92-0.88-0.87c-0.76,0.05-1.52-0.02-2.28,0.02
+								c-0.55,0.03-0.72-0.19-0.71-0.72c0.04-2.63-0.27-2.09,2.03-2.12c2.6-0.03,5.19,0.03,7.79-0.03c0.89-0.02,1.11,0.29,1.09,1.13
+								c-0.05,1.73-0.01,1.73-1.78,1.73c-1.98,0-1.98,0-1.98,2.03c0,3.95-0.02,7.89,0.02,11.84c0.01,0.82-0.15,1.15-1.06,1.13
+								c-2.24-0.06-2.25-0.01-2.25-2.3C115.4,69.41,115.4,67.68,115.4,65.95z"/>
+							<path class="fill-vibrant" d="M106.72,64.48c0-2.63,0.03-5.26-0.02-7.89c-0.01-0.79,0.25-1,1.01-1c2.31,0,2.31-0.02,2.31,2.24
+								c0,4.88-0.02,9.76,0.02,14.64c0.01,0.79-0.22,0.98-0.99,0.97c-2.33-0.03-2.33,0-2.33-2.32C106.72,68.91,106.72,66.69,106.72,64.48z
+								"/>
+							<path class="fill-vibrant" d="M76.15,65.91c0.33,0.53,0.09,1.11,0.19,1.73c-0.28-0.21-0.32-0.46-0.39-0.7
+								C76.26,66.65,76.04,66.25,76.15,65.91z"/>
+							<path class="fill-vibrant" d="M51.48,64.29c-0.41-0.33-0.56-0.42-0.06-0.86c1.5-1.34,1.54-3.09,1.07-4.88c-0.45-1.7-1.69-2.55-3.37-2.81
+								c-1.86-0.29-3.74-0.05-5.6-0.15c-0.8-0.04-1.09,0.18-1.07,1.04c0.06,2.63,0.02,5.27,0.02,7.9c0,2.67,0.02,5.34-0.01,8
+								c-0.01,0.64,0.12,0.93,0.85,0.9c1.7-0.05,3.4,0.01,5.09-0.02c2.18-0.04,3.85-1.23,4.51-3.19C53.7,67.88,53.19,65.64,51.48,64.29z
+								 M46.4,58.23c2.22-0.13,3.04,0.4,3.22,2c0.16,1.4-0.42,2.2-1.77,2.44c-2.23,0.4-2.23,0.4-2.23-2.24c0-0.1-0.03-0.22,0.01-0.31
+								C45.9,59.49,44.94,58.31,46.4,58.23z M46.09,70.94c-0.44-0.08-0.46-0.32-0.46-0.65c0-0.73,0-1.45,0-2.18
+								c0-0.28-0.09-0.59,0.02-0.82c0.29-0.66-0.77-1.89,0.76-1.99c2.34-0.16,3.41,0.55,3.54,2.19C50.16,70.22,48.8,71.42,46.09,70.94z"/>
+							<path class="fill-vibrant" d="M92.69,59.75c-0.49-1.96-1.71-3.38-3.78-3.88c-2.05-0.49-4.13-0.2-6.2-0.26c-0.49-0.01-0.53,0.33-0.53,0.71
+								c0,5.47,0.01,10.94-0.01,16.41c0,0.56,0.21,0.72,0.73,0.69c0.76-0.03,1.52-0.01,2.28-0.01c0.62,0,1.25,0,1.87,0
+								c2.64-0.02,4.6-1.32,5.4-3.74C93.53,66.41,93.52,63.06,92.69,59.75z M89.48,68.38c-0.52,1.82-1.48,2.49-3.34,2.42
+								c-0.49-0.02-0.67-0.16-0.67-0.66c0.01-3.7,0.01-7.4,0-11.11c0-0.51,0.2-0.63,0.67-0.66c2.07-0.12,3.08,0.66,3.51,2.69
+								c0.23,1.1,0.21,2.2,0.22,3.3C89.9,65.72,89.86,67.07,89.48,68.38z"/>
+							<path class="fill-vibrant" d="M66.34,72.08c-1.04-4.47-2.07-8.95-3.15-13.41c-0.24-0.99-0.11-2.32-0.88-2.89c-0.76-0.57-2.01-0.09-3.04-0.19
+								c-0.72-0.07-1.04,0.2-1.2,0.91c-1.22,5.35-2.47,10.7-3.72,16.05c-0.14,0.58-0.11,0.94,0.64,0.88c0.58-0.05,1.18-0.04,1.76,0
+								c0.53,0.04,0.74-0.19,0.82-0.68c0.13-0.82,0.36-1.62,0.45-2.45c0.11-0.97,0.45-1.51,1.55-1.33c0.61,0.1,1.25,0.08,1.86,0
+								c0.79-0.1,1.03,0.29,1.13,0.97c0.13,0.89,0.34,1.76,0.49,2.65c0.1,0.58,0.31,0.96,1,0.84c0.27-0.05,0.55-0.01,0.83-0.01
+								c0.14,0,0.28,0,0.42,0C66.64,73.42,66.65,73.42,66.34,72.08z M61.16,66.16c-2.29,0.14-2.29,0.16-1.86-2.09
+								c0.28-1.45,0.56-2.9,0.84-4.35c0.12-0.13,0.25-0.13,0.37,0c0.38,1.92,0.75,3.85,1.16,5.77C61.77,65.98,61.7,66.13,61.16,66.16z"/>
+							<path class="fill-vibrant" d="M60.51,59.71c-0.12,0-0.25,0-0.37,0c0.02-0.21-0.14-0.56,0.24-0.53C60.58,59.2,60.53,59.51,60.51,59.71z"/>
+						</g>
+						</svg>
+
+					</div>	
+					<img id="foto-slide-10" src="">	
 				</section>
 			</div>
 		</div>
@@ -102,6 +273,112 @@
 				  dots: false,
 				});
 		</script>
-		<script src="script.js"></script>
+		<script>
+		var img = document.getElementById("foto-slide-10");
+		img.getAttribute("src");
+		img.crossOrigin = "Anonymous";
+
+		img.addEventListener('load', function() {
+		    var vibrant = new Vibrant(img, 256, 5);
+		    var swatches = vibrant.swatches()
+		    for (var swatch in swatches)
+		        if (swatches.hasOwnProperty(swatch) && swatches[swatch])
+		            console.log(swatch, swatches[swatch].getHex());
+		let fillVibrant = document.getElementsByClassName("fill-vibrant");
+		let fillLightVibrant = document.getElementsByClassName("fill-lightvibrant");
+		let fillDarkVibrant = document.getElementsByClassName("fill-darkvibrant");
+		let fillMuted = document.getElementsByClassName("fill-muted");
+		let fillDarkMuted = document.getElementsByClassName("fill-darkmuted");
+		let bgDarkMuted = document.getElementsByClassName("bg-darkmuted");
+		let fgLightText = document.getElementsByClassName("fg-lighttext");
+		let fgDarkText = document.getElementsByClassName("fg-darktext");
+
+		let teller = 0;
+		while (teller < fillVibrant.length){
+			fillVibrant[teller].style.fill = swatches['Vibrant'].getHex();
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < fillLightVibrant.length){
+			fillLightVibrant[teller].style.fill= swatches['LightVibrant'].getHex();
+			teller++;
+		}	
+
+		teller = 0;
+		while (teller < fillDarkVibrant.length){
+			fillDarkVibrant[teller].style.fill = swatches['DarkVibrant'].getHex();
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < fillMuted.length){
+			fillMuted[teller].style.fill = swatches['Muted'].getHex();
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < fillDarkMuted.length){
+			fillDarkMuted[teller].style.fill = swatches['DarkMuted'].getHex();
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < bgDarkMuted.length){
+			bgDarkMuted[teller].style.backgroundColor = swatches['DarkMuted'].getHex();
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < fgLightText.length){
+			fgLightText[teller].style.color = 'white';
+			teller++;
+		}
+
+		teller = 0;
+		while (teller < fgDarkText.length){
+			fgDarkText[teller].style.color = 'black';
+			teller++;
+		}
+		});
+
+		const imageArray = [
+				"https://ymkevandebroekbp.github.io/fotodump/1.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/2.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/3.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/4.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/5.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/6.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/7.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/8.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/10.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/11.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/12.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/13.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/14.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/15.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/16.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/17.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/18.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/19.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/20.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/21.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/22.jpg",
+				"https://ymkevandebroekbp.github.io/fotodump/23.jpg",
+			];
+
+			const image = document.getElementById("foto-slide-10");
+			image.crossOrigin = "Anonymous";
+
+			function generateRandomPicture(){
+				let randomNum = Math.floor(Math.random() * imageArray.length); 
+				image.setAttribute("src", imageArray[randomNum]);
+			}
+			generateRandomPicture();
+
+			const interval = setInterval(generateRandomPicture, 5000);
+
+		</script>
+		<script src="vibrant.js"></script>
 	</body>
 </html>

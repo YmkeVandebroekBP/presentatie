@@ -207,12 +207,16 @@ section:nth-child(1) .smartphone-boost-groen{
   top: 100px;
   right: 300px;
   z-index: -1;
+  animation-name: boost-rechts;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease;
 }
 
 section:nth-child(1) .smartphone-boost-groen-mask{
   background-color: white;
   width: 140px;
-  height: 140px;
+  height: 250px;
   position: absolute;
   top: 120px;
   right: 220px;
@@ -226,6 +230,19 @@ section:nth-child(1) .smartphone-boost-wit{
   top: 330px;
   left: 310px;
   z-index: -1;
+  animation-name: boost-links;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+}
+
+section:nth-child(1) .smartphone-boost-wit-mask{
+  width: 140px;
+  height: 250px;
+  position: absolute;
+  bottom: -50px;
+  left: 110px;
+  z-index: -1;
 }
 
 section:nth-child(1) .smartphone-boost-roos{
@@ -235,17 +252,67 @@ section:nth-child(1) .smartphone-boost-roos{
   bottom: 50px;
   right: 300px;
   z-index: -1;
+  animation-name: boost-rechts;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay: 1.75s;
 }
 
 section:nth-child(1) .smartphone-boost-roos-mask{
   background-color: white;
-  width: 140px;
-  height: 180px;
+  width: 160px;
+  height: 280px;
   position: absolute;
-  bottom: 0px;
-  right: 230px;
+  bottom: -40px;
+  right: 210px;
   z-index: -1;
-  border-radius: 20px;
+}
+
+@keyframes boost-links{
+  0%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+
+  50%{
+    transform: translate(-85px,85px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes boost-rechts{
+  0%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+
+  50%{
+    transform: translate(85px,85px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes logo-laden{
+  0%{
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.25;
+  }
+  100%{
+    transform: rotate(360deg);
+    opacity: 1;
+  }
 }
 
 section:nth-child(1) .smartphone-logo{
@@ -254,9 +321,83 @@ section:nth-child(1) .smartphone-logo{
   position: absolute;
   top: 250px;
   left: 410px;
+  animation-name: logo-laden;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 /* SLIDE 2 */
+section:nth-child(2) #gitaar-1{
+  width: 200px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  transform: rotate(-2deg);
+  z-index: -1;
+}
+
+section:nth-child(2) #gitaar-2{
+  width: 190px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  transform: rotate(2deg);
+  z-index: 1;
+}
+
+section:nth-child(2) #gitaar-3{
+  width: 350px;
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+  transform: rotate(-2deg);
+  z-index: 1;
+}
+
+section:nth-child(2) #bas{
+  width: 400px;
+  position: absolute;
+  left: 230px;
+  bottom: 20px;
+  transform: rotate(1deg);
+}
+
+section:nth-child(2) #drum{
+  width: 400px;
+  position: absolute;
+  right: 230px;
+  top: 200px;
+  transform: rotate(1deg);
+}
+
+section:nth-child(2) #drum-2{
+  width: 300px;
+  position: absolute;
+  left: 40px;
+  top: 170px;
+  transform: rotate(1deg);
+  z-index: -3;
+}
+
+section:nth-child(2) #bas-2{
+  width: 250px;
+  position: absolute;
+  right: 200px;
+  top: 0px;
+  z-index: -3;
+  transform: rotate(92deg);
+}
+
+section:nth-child(2) #kaartje{
+  display: none;
+  width: 400px;
+  position: absolute;
+  right: 230px;
+  top: 180px;
+  transform: rotate(1deg);
+}
+
 
 
 /* SLIDE 3 */
@@ -432,8 +573,6 @@ section:nth-child(5) img{
 }
 
 /* SLIDE 6 */
-
-
 section:nth-child(6) ul{
   list-style-type: square;
   position: absolute;
@@ -463,7 +602,7 @@ section:nth-child(7) .smartphone-mockup{
   background-image: url(img/smartphone-formaat.png);
   position: absolute;
   top: 30px;
-  left: -50px;
+  left: -200px;
 }
 
 section:nth-child(7) .full-bandfit{
@@ -471,19 +610,227 @@ section:nth-child(7) .full-bandfit{
   width: 360px;
   position: absolute;
   top: 40px;
-  left: -50px;
+  left: -200px;
   border-radius: 20px;
 }
 
 section:nth-child(7) .set-image-bandfit{
   position: absolute;
-  left: 320px;
-  width: 700px;
+  left: 175px;
+  width: 900px;
   height: 650px;
   z-index: -1;
 }
 
 /* SLIDE 8 */
+section:nth-child(8) ul{
+  list-style-type: square;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: left;
+}
 
+section:nth-child(8) ul li{
+  color: black;
+  font-family: hero-new, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
 /* SLIDE 9 */
+section:nth-child(9) ul{
+  list-style-type: square;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: left;
+}
+
+section:nth-child(9) ul li{
+  color: black;
+  font-family: hero-new, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/* SLIDE 10 */
+#h1-slide-10{
+  z-index: 1;
+  position: absolute;
+  right: 250px;
+  top: 100px;
+  font-family: hero-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #3B27BA;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: left;
+  width: 270px;
+  height: 270px;
+  line-height: 50px;
+}
+
+#foto-slide-10{
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+
+section:nth-child(10) .smartphone{
+  position: relative;
+  transform: translateX(-250px);
+}
+
+section:nth-child(10) .smartphone-mockup{
+  width: 600px;
+  height: 600px;
+  margin-top: 32px;
+}
+
+section:nth-child(10) .smartphone-background{
+  width: 240px;
+  height: 470px;
+  background-color: #3B27BA;
+  position: absolute;
+  top: 110px;
+  left: 360px;
+  z-index: -1;
+}
+
+section:nth-child(10) .smartphone-boost-groen{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 100px;
+  right: 300px;
+  z-index: -1;
+  animation-name: boost-rechts;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+}
+
+section:nth-child(10) .smartphone-boost-groen-mask{
+  background-color: white;
+  width: 140px;
+  height: 250px;
+  position: absolute;
+  top: 120px;
+  right: 220px;
+  z-index: -1;
+}
+
+section:nth-child(10) .smartphone-boost-wit{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 330px;
+  left: 310px;
+  z-index: -1;
+  animation-name: boost-links;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+}
+
+section:nth-child(10) .smartphone-boost-wit-mask {
+  width: 112px;
+  height: 333px;
+  position: absolute;
+  bottom: -27px;
+  left: 250px;
+  z-index: -1;
+  background-color: white;
+}
+
+section:nth-child(10) .smartphone-boost-roos{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+  z-index: -1;
+  animation-name: boost-rechts;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay: 1.75s;
+}
+
+section:nth-child(10) .smartphone-boost-roos-mask{
+  background-color: white;
+  width: 160px;
+  height: 280px;
+  position: absolute;
+  bottom: -40px;
+  right: 210px;
+  z-index: -1;
+}
+
+@keyframes boost-links{
+  0%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+
+  50%{
+    transform: translate(-85px,85px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes boost-rechts{
+  0%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+
+  50%{
+    transform: translate(85px,85px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes logo-laden{
+  0%{
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.25;
+  }
+  100%{
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+section:nth-child(10) .smartphone-logo{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 250px;
+  left: 410px;
+  animation-name: logo-laden;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
